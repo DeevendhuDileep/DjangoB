@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def load_home_page(request):
     return render(request,'home.html')
+
+def load_index_page(request):
+    return render(request,'index.html')
